@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexandre.loteriav2.MainActivity">
+
+    <TextView
+        android:id="@+id/NameMegaSenaExtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="310dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Mega-Sena"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/QuinaNumberOuttextView2"
+        android:layout_width="363dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="9dp"
+        android:text="Jogo: "
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuinaTextView" />
+
+    <TextView
+        android:id="@+id/numberOuttextView"
+        android:layout_width="363dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+        android:text="Jogo: "
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameMegaSenaExtView" />
+
+    <TextView
+        android:id="@+id/QuinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="298dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberOuttextView" />
+</android.support.constraint.ConstraintLayout>
